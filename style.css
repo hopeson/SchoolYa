@@ -77,7 +77,7 @@ a:visited
 
 a:hover
 {
-    color: #0f0;
+    color: #303095;
 }
 
 img
@@ -105,52 +105,47 @@ header
 /* Main (end) */
 
 /* Navigation (begin) */
-nav.nav
+.nav
 {
     position: fixed;
     top: 15%;
-    right: -8px;
+    right: 0;
 }
 
-nav li
+.nav li
 {
     position: relative;
     z-index: 0;
 }
 
-nav a
+.nav a
 {
     display: block;
     height: 43px;
     width: 190px;
 }
 
-nav li.gereral-info a
+li.general-info a
 {
     background: url("img/marks.png") no-repeat scroll 0px 1px transparent;
 }
 
-nav li.frontend-school a
+li.frontend-school a
 {
     background: url("img/marks.png") no-repeat scroll 0px -40px transparent;
 }
 
-nav li.experience a
+li.experience a
 {
     background: url("img/marks.png") no-repeat scroll 0px -82px transparent;
 }
 
-nav li.active
+.nav li.active
 {
     z-index: 1;
 }
 
-nav a:hover, nav a.active
-{
-
-}
-
-nav h1
+.nav h1
 {
     display: none;
 }
@@ -183,22 +178,23 @@ nav h1
     padding-right: 10px;
 }
 
-
-#gereral-info
+.article
 {
     position: relative;
+}
+
+.first-art
+{
     top: 0;
 }
 
-#frontend-school
+.middle-art
 {
-    position: relative;
     top: 335px;
 }
 
-#experience
+.last-art
 {
-    position: relative;
     top: 613px;
 }
 /* Content (end) */
