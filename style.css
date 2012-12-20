@@ -95,6 +95,12 @@ ol
     counter-reset: questions;
 }
 
+span
+{
+    color: #292860;
+    margin-right: 0.5em;
+}
+
 .wrapp
 {
     position: relative;
